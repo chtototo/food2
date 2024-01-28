@@ -9,7 +9,7 @@ import { RouterLink, RouterView } from 'vue-router'
       <h1 class="text-white text-center text-[50px]">FOOD</h1>
     </div>
   </header>
-  <div class="bg-gradient-to-r from-white to-gray-100 h-fit pb-[100px] border-white rounded-tl-[200px] flex flex-col items-center">
+  <div class="bg-gradient-to-r from-white to-gray-100 h-fit pb-[150px] border-white rounded-tl-[200px] flex flex-col items-center">
     <div class="grid grid-cols-2 gap-[70px] mt-[-50px]">
       <button class="nav-btn">
         <img src="./components/icons/testIcon.png" width="250" alt="">
