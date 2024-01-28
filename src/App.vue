@@ -38,7 +38,7 @@ import { RouterLink, RouterView } from 'vue-router'
     </div>
   </div>
   <nav
-    class="sticky bottom-0 w-[100%] flex justify-between px-[40px] items-center h-[150px] border-solid border-t-[1px] border-gray-500">
+    class="sticky bottom-0 w-[100%] bg-white flex justify-between px-[40px] items-center h-[150px] border-solid border-t-[1px] border-gray-500">
     <a class="nav-link active-nav-link" href="">
       <img src="./components/icons/forNavActive.png" width="90" alt="">
       <p>home</p>
