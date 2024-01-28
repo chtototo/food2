@@ -6,7 +6,7 @@ import { RouterLink, RouterView } from 'vue-router'
   <header class="h-[30vh] relative">
     <div class="absolute left-0 right-0 top-0 bottom-0 ml-auto mr-auto mt-auto mb-auto w-fit h-fit">
       <img src="./components/icons/icon.png" alt="" height="350" width="350" class="invert">
-      <h1 class="text-white text-center text-[50px]">FOOD</h1>
+      <h1 class="text-white text-center text-[50px] mb-[20px]">FOOD</h1>
     </div>
   </header>
   <div class="bg-gradient-to-r from-white to-gray-100 h-fit pb-[200px] border-white rounded-tl-[200px] flex flex-col items-center">
