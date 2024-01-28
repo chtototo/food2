@@ -10,7 +10,7 @@ import { RouterLink, RouterView } from 'vue-router'
     </div>
   </header>
   <div class="bg-gradient-to-r from-white to-gray-100 h-fit pb-[200px] border-white rounded-tl-[200px] flex flex-col items-center">
-    <div class="grid grid-cols-2 gap-[70px] mt-[-50px]">
+    <div class="grid grid-cols-2 gap-[70px] mt-[-2vh]">
       <button class="nav-btn">
         <img src="./components/icons/testIcon.png" width="250" alt="">
         <p>home</p>
