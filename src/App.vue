@@ -9,35 +9,10 @@ import { RouterLink, RouterView } from 'vue-router'
       <h1 class="text-white text-center text-[50px] mb-[20px]">FOOD</h1>
     </div>
   </header>
-  <div class="bg-gradient-to-r from-white to-gray-100 h-fit pb-[200px] border-white rounded-tl-[200px] flex flex-col items-center">
-    <div class="grid grid-cols-2 gap-[70px] mt-[-2vh]">
-      <button class="nav-btn">
-        <img src="./components/icons/testIcon.png" width="250" alt="">
-        <p>home</p>
-      </button>
-      <button class="nav-btn">
-        <img src="./components/icons/testIcon.png" width="250" alt="">
-        <p>home</p>
-      </button>
-      <button class="nav-btn">
-        <img src="./components/icons/testIcon.png" width="250" alt="">
-        <p>home</p>
-      </button>
-      <button class="nav-btn">
-        <img src="./components/icons/testIcon.png" width="250" alt="">
-        <p>home</p>
-      </button>
-      <button class="nav-btn">
-        <img src="./components/icons/testIcon.png" width="250" alt="">
-        <p>home</p>
-      </button>
-      <button class="nav-btn">
-        <img src="./components/icons/testIcon.png" width="250" alt="">
-        <p>home</p>
-      </button>
-    </div>
+  <div class="bg-gradient-to-r from-white to-gray-100 h-fit pb-[200px] pt-[120px] px-[20px] border-white rounded-tl-[200px] flex flex-col items-center">
+    <RouterView />
   </div>
-  <nav
+  <!-- <nav
     class="fixed bottom-0 w-[100%] bg-white flex justify-between px-[40px] items-center h-[150px] border-solid border-t-[1px] border-gray-500">
     <a class="nav-link active-nav-link" href="">
       <img src="./components/icons/forNavActive.png" width="90" alt="">
@@ -55,5 +30,5 @@ import { RouterLink, RouterView } from 'vue-router'
       <img src="./components/icons/forNav.png" width="85" alt="">
       <p>home</p>
     </a>
-  </nav>
+  </nav> -->
 </template>

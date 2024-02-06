@@ -11,7 +11,7 @@
 }
 
 .nav-btn {
-    @apply h-[400px] w-[400px] border-solid border-[1px] rounded-[15px] border-black bg-white shadow-gray-300 shadow-2xl active:bg-gray-200 flex flex-col justify-center items-center
+    @apply h-[400px] w-[400px] border-solid border-[1px] rounded-[15px] border-black bg-white shadow-gray-300 shadow-2xl active:bg-gray-200 transition-[0.2s] flex flex-col justify-center items-center 
 }
 
 .nav-link {
@@ -19,5 +19,9 @@
 }
 
 .active-nav-link {
-    @apply text-zinc-800 text-[45px]
+    @apply text-zinc-800 text-[45px] before:content-['']
+}
+
+.sortButton {
+    @apply h-[100px] w-[150px] border-[2px] border-blue-500 rounded-[25px] active:bg-gray-200
 }
