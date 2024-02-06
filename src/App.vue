@@ -12,23 +12,16 @@ import { RouterLink, RouterView } from 'vue-router'
   <div class="bg-gradient-to-r from-white to-gray-100 h-fit pb-[200px] pt-[120px] px-[20px] border-white rounded-tl-[200px] flex flex-col items-center">
     <RouterView />
   </div>
-  <!-- <nav
-    class="fixed bottom-0 w-[100%] bg-white flex justify-between px-[40px] items-center h-[150px] border-solid border-t-[1px] border-gray-500">
-    <a class="nav-link active-nav-link" href="">
+  <nav
+    class="fixed bottom-0 w-[100%] bg-white flex justify-between items-center h-[150px] border-solid border-t-[1px] border-gray-500">
+    <a class="nav-link" href="">
       <img src="./components/icons/forNavActive.png" width="90" alt="">
-      <p>home</p>
+      <p>calculators</p>
     </a>
+    <div class="h-[100%] w-[1px] bg-gray-500"></div>
     <a class="nav-link" href="">
       <img src="./components/icons/forNav.png" width="85" alt="">
-      <p>home</p>
+      <p>table</p>
     </a>
-    <a class="nav-link" href="">
-      <img src="./components/icons/forNav.png" width="85" alt="">
-      <p>home</p>
-    </a>
-    <a class="nav-link" href="">
-      <img src="./components/icons/forNav.png" width="85" alt="">
-      <p>home</p>
-    </a>
-  </nav> -->
+  </nav>
 </template>

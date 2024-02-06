@@ -11,11 +11,11 @@
 }
 
 .nav-btn {
-    @apply h-[400px] w-[400px] border-solid border-[1px] rounded-[15px] border-black bg-white shadow-gray-300 shadow-2xl active:bg-gray-200 transition-[0.2s] flex flex-col justify-center items-center 
+    @apply h-[400px] w-[400px] border-solid border-[1px] rounded-[15px] border-black bg-white shadow-gray-300 shadow-2xl active:bg-gray-200 transition-[0.2s] flex flex-col justify-center items-center text-center text-gray-500
 }
 
 .nav-link {
-    @apply text-gray-500 text-[35px] flex flex-col justify-center items-center
+    @apply text-gray-500 w-[100%] text-[35px] flex flex-col justify-center items-center
 }
 
 .active-nav-link {
