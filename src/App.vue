@@ -1,11 +1,11 @@
-<script setup>
+<script>
 import { RouterLink, RouterView } from 'vue-router'
 </script>
 
 <template>
-  <header class="h-[30vh] relative">
-    <div class="absolute left-0 right-0 top-0 bottom-0 ml-auto mr-auto mt-auto mb-auto w-fit h-fit">
-      <img src="./components/icons/icon.png" alt="" height="350" width="350" class="invert">
+  <header class="py-[5vh] h-fit flex justify-center items-center">
+    <div class="w-fit h-fit">
+      <img src="./components/icons/main.png" alt="" height="350" width="350">
       <h1 class="text-white text-center text-[50px] mb-[20px]">FOOD</h1>
     </div>
   </header>
@@ -14,14 +14,14 @@ import { RouterLink, RouterView } from 'vue-router'
   </div>
   <nav
     class="fixed bottom-0 w-[100%] bg-white flex justify-between items-center h-[150px] border-solid border-t-[1px] border-gray-500">
-    <a class="nav-link" href="">
-      <img src="./components/icons/forNavActive.png" width="90" alt="">
+    <RouterLink to="/" class="nav-link">
+      <img src="./components/icons/calculator-icon.png" width="70" alt="">
       <p>calculators</p>
-    </a>
-    <div class="h-[100%] w-[1px] bg-gray-500"></div>
-    <a class="nav-link" href="">
-      <img src="./components/icons/forNav.png" width="85" alt="">
+    </RouterLink>
+    <div class="h-[70%] w-[1px] bg-gray-500"></div>
+    <RouterLink to="/table" class="nav-link">
+      <img src="./components/icons/products-icon.png" width="80" alt="">
       <p>table</p>
-    </a>
+    </RouterLink>
   </nav>
 </template>

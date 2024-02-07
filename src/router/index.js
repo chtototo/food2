@@ -21,32 +21,37 @@ const router = createRouter({
     {
       path: '/perfect_weight',
       name: 'perfect_weight',
-      component: () => import('../components/calculators/PerfectWeight.vue')
+      component: () => import('../components/PerfectWeight.vue')
     },
     {
       path: '/normal_weight',
       name: 'normal_weight',
-      component: () => import('../components/calculators/NormalWeight.vue')
+      component: () => import('../components/NormalWeight.vue')
     },
     {
       path: '/fat_percentage',
       name: 'fat_percentage',
-      component: () => import('../components/calculators/FatPercentage.vue')
+      component: () => import('../components/FatPercentage.vue')
     },
     {
       path: '/muscle_mass',
       name: 'muscle_mass',
-      component: () => import('../components/calculators/MuscleMass.vue')
+      component: () => import('../components/MuscleMass.vue')
     },
     {
       path: '/bmr',
       name: 'bmr',
-      component: () => import('../components/calculators/BMR.vue')
+      component: () => import('../components/BMR.vue')
     },
     {
       path: '/bmi',
       name: 'bmi',
-      component: () => import('../components/calculators/BMI.vue')
+      component: () => import('../components/BMI.vue')
+    },
+    {
+      path: '/products_calculator',
+      name: 'products_calculator',
+      component: () => import('../components/ProductsCalculator.vue')
     },
   ]
 })

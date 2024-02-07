@@ -7,7 +7,7 @@
 @tailwind utilities;
 
 #app {
-    @apply bg-gradient-to-r from-cyan-500 to-blue-500 h-fit text-[45px]
+    @apply bg-gradient-to-r from-cyan-500 to-blue-500 h-fit text-[45px] text-gray-700
 }
 
 .nav-btn {
@@ -18,10 +18,52 @@
     @apply text-gray-500 w-[100%] text-[35px] flex flex-col justify-center items-center
 }
 
-.active-nav-link {
-    @apply text-zinc-800 text-[45px] before:content-['']
+.sortButton {
+    @apply h-[100px] w-[150px] border-[2px] border-gray-500 rounded-[25px] active:bg-gray-200
 }
 
-.sortButton {
-    @apply h-[100px] w-[150px] border-[2px] border-blue-500 rounded-[25px] active:bg-gray-200
+.results {
+    @apply w-[100%]
+}
+
+.result {
+    @apply flex w-[100%] justify-between border-b-[1px] border-b-gray-500 items-center text-gray-700 h-[100px]
+}
+
+.name {
+    @apply  w-[80%]
+}
+
+.value {
+    @apply w-[20%] text-end
+}
+
+.paramInput {
+    @apply h-[100px] w-[100%] border-[1px] border-black rounded-[35px] px-[25px] mb-[20px]
+}
+
+.paramGenderInput {
+    @apply h-[50px] w-[50px] mr-[10px]
+
+}
+
+.params {
+    @apply flex flex-col w-[100%]
+}
+
+.calculate {
+    @apply w-[300px] h-[150px] border-[1px] border-black rounded-[40px] self-start mb-[50px] active:bg-gray-200
+}
+
+.gender,
+.active {
+    @apply flex items-center mb-[10px] w-[100%]
+}
+
+.paramActiveInput {
+    @apply h-fit w-fit mr-[30px]
+}
+
+.total {
+    @apply border-[1px] border-gray-500 rounded-[50px] h-[100px] flex justify-center items-center
 }
